@@ -1,0 +1,33 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+			"borg_probe":100,
+			"fallback":{"combatSmall":1},
+		},
+		"combatSmall":{
+			"borg_probe":100,
+			"fallback":{"combatMedium":0.5},
+		},
+		"combatMedium":{
+			"borg_obelisk":100,
+			"borg_pyramid":35,
+			"fallback":{"combatSmall":1},
+		},
+		"combatLarge":{
+			"borg_sphere":25,
+			"assimilated_apogee":50,
+			"assimilated_paragon_t1":10,
+			"fallback":{"combatMedium":1},
+		},
+		"combatCapital":{
+			"borg_diamond":25,
+			"borg_cube":5,
+			"assimilated_paragon":40,
+			"fallback":{"combatLarge":1},
+		},
+		"freighterLarge":{
+		"assimilated_atlas":10,
+		"fallback":{"combatSmall":1},
+	},
+}

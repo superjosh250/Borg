@@ -1,0 +1,54 @@
+{
+    "displayName": "Paragon",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "assimilated_paragon",
+    "hullMods": [
+        "targetingunit",
+        "surveying_equipment",
+        "hiressensors"
+    ],
+    "quality": 0.0,
+    "variantId": "assimilated_paragon_t1",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "lightdualmg",
+                "WS 019": "lightdualmg",
+                "WS 001": "railgun",
+                "WS 000": "railgun",
+                "WS 002": "railgun",
+                "WS 003": "railgun",
+                "WS 015": "borg_plasma_small",
+                "WS 017": "borg_plasma_small",
+                "WS 016": "borg_plasma_small",
+                "WS 014": "borg_plasma_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "nb_bomblauncher",
+                "WS 013": "nb_bomblauncher",
+                "WS 008": "breach",
+                "WS 010": "breach",
+                "WS 009": "breach",
+                "WS 011": "breach"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "cutting_beam_medium",
+                "WS 004": "cutting_beam_medium",
+                "WS 007": "ionbeam",
+                "WS 006": "ionbeam"
+            }
+        }
+    ]
+}

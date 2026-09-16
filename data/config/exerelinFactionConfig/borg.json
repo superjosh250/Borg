@@ -1,0 +1,77 @@
+{
+  "playableFaction": true,
+  "corvusCompatible": true,
+  "hostileToAll":1,
+  
+  "difficultyString":"hard",
+  "rebelFleetSuffix": "Individualism",
+  "alignments": {
+    "technocratic": 1,
+    "militarist": 0.5,
+    "diplomatic": -1,
+    "ideological": -1
+  },
+
+  "marketSpawnWeight":1,
+  "maxRelationships":{ 
+    "ufp":-0.5, 
+    "terran_empire":-1, 
+    "hegemony":-1,
+    "tritachyon":-1,
+    "persean":-1,
+    "kol":-0.1,
+    "guard":-1,
+    "diktat":-0.2,
+    "pirates":-1,
+    "church":-1,
+    "path":-1,
+    "independent":0.1,
+},
+  "morality":"evil",
+  
+  "factionsLiked": [
+    "remnant",
+    "threat",
+    "omega"
+  ],
+  "factionsDisliked": [
+    "ufp",
+    "terran_empire",
+    "luddic_church",
+    "luddic_path",
+    "knights_of_ludd",
+    "lions_guard",
+    "hegemony",
+    "persean",
+    "pirates",
+    "scavengers",
+    "sindrian_diktat",
+    "tritachyon",
+    "templars",
+    "junk_pirates"
+  ],
+  "startShipsSolo": [
+    ["assimilated_atlas"],
+    ["borg_probe"]
+  ],
+  "startShipsCombatSmall": [
+    ["assimilated_apogee", "borg_probe"],
+    ["borg_probe", "borg_probe"]
+  ],
+  "startShipsCombatLarge": [
+    ["borg_pyramid", "borg_probe"],
+    ["borg_pyramid", "assimilated_paragon"]
+  ],
+  "startShipsTradeSmall": [
+    ["borg_probe", "assimilated_atlas"]
+  ],
+  "startShipsTradeLarge": [[
+    "borg_probe",
+    "assimilated_atlas",
+    "assimilated_atlas",
+    "assimilated_atlas"
+  ]],
+  "startShipsSuper":[
+      ["borg_diamond"]
+    ]
+}

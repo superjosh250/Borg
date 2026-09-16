@@ -1,0 +1,19 @@
+weapon_id,projectile_id,shield_hp_mult
+#NOTES,,
+defaultDamagePerSecond,,0.15
+defaultDamagePerShot,,0.15
+,,
+#BORG WEAPONS,,
+borg_plasma_small,,0.35
+borg_plasma_medium,,0.35
+borg_plasma_beam,,0.35
+,,
+cutting_beam_small,,0.3
+cutting_beam_medium,,0.3
+cutting_beam,,0.3
+,,
+borg_photon_torpedoS,borg_photon,0.6
+borg_photon_torpedoM,borg_photon,0.6
+borg_photon_torpedo,borg_photon,0.6
+,,
+borg_plasma_torpedo,plasma_projectile,0.45

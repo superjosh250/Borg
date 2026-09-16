@@ -1,0 +1,508 @@
+{
+    "hullName": "Sphere",
+    "hullId": "borg_sphere",
+    "hullSize": "CRUISER",
+    "style": "BORG",
+    "spriteName": "graphics/ships/borg_sphere.png",
+    "height": 600,
+    "width": 600,
+    "center": [
+        300, 300
+    ],
+    "collisionRadius": 600,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 512,
+    "viewOffset": 0,
+    "builtInMods": [
+        "borgShields",
+        "hive_mind",
+        "borgAdaptationMatrix",
+        "borgRegenMatrix"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   246.5,      -67
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   215.5,       18
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     222,     86.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   200.5,     69.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                    28.5,     -265
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                      87,   -233.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                   -71.5,   -258.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                     -13,     -185
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -244.5,   -131.5
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -234.5,      -86
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -219,    -29.5
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -242.5,     49.5
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -91.5,      228
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -11,    188.5
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                      67,    249.5
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -33.5,      261
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     210,     -7.5
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   268.5,    -27.5
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                     -55,   -255.5
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 268.5,
+            "locations": [
+                     7.5,     -195
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                      59,   -190.5
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -168,      -86
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -201.5,       37
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -23.5,      164
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -63.5,      265
+            ]
+        },
+        {
+            "id": "WS 025",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                    36.5,      250
+            ]
+        },
+        {
+            "id": "WS 026",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     127,    -83.5
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -51,    264.5
+            ]
+        },
+        {
+            "id": "WS 028",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -236.5,   -103.5
+            ]
+        },
+        {
+            "id": "WS 029",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 27.5,
+            "locations": [
+                     120,       53
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                    16.5,   -183.5
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     268,        1,
+                   278.5,      -33,
+                   277.5,       35,
+                     284,      1.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -282, -6
+            ],
+            "length": 20.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -281, -23
+            ],
+            "length": 20.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -280, -39
+            ],
+            "length": 20.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -278, -61
+            ],
+            "length": 20.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -259, 112
+            ],
+            "length": 36.5,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -272.5, 76
+            ],
+            "length": 36.5,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -281.5, 30.5
+            ],
+            "length": 36,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -249, -134.5
+            ],
+            "length": 36,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        },
+        {
+            "location": [
+                -231, -163.5
+            ],
+            "length": 36,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "BORG_IMPULSE"
+        }
+    ],
+    "bounds": [
+          -267.5,    119.5,
+            -215,      185,
+          -125.5,      259,
+            -5.5,    281.5,
+           102.5,    265.5,
+        
+             215,    174.5,
+             243,      119,
+           266.5,       63,
+             282,       60,
+           289.5,       -2,
+        
+             282,      -60,
+           262.5,    -61.5,
+             243,     -126,
+             215,   -174.5,
+           102.5,   -265.5,
+        
+            -5.5,   -281.5,
+          -125.5,     -259,
+            -218,     -190,
+            -262,   -123.5,
+            -271,   -124.5,
+        
+          -290.5,    -67.5,
+            -278,    -66.5,
+          -281.5,     -3.5,
+          -292.5,      1.5,
+            -287,       63
+    # 25 points total.
+    ]
+}

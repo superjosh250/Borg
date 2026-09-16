@@ -1,0 +1,55 @@
+{
+    "displayName": "Probe",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "borg_probe",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "borg_probe",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "borg_plasma_small",
+                "WS 000": "borg_plasma_small",
+                "WS 002": "borg_plasma_small",
+                "WS 003": "borg_plasma_small",
+                "WS 014": "borg_plasma_small",
+                "WS 015": "borg_plasma_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "borg_photon_torpedoS",
+                "WS 019": "borg_photon_torpedoS",
+                "WS 018": "borg_photon_torpedoS",
+                "WS 011": "borg_photon_torpedoS",
+                "WS 007": "borg_photon_torpedoS",
+                "WS 006": "borg_photon_torpedoS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "borg_plasma_small",
+                "WS 009": "borg_plasma_small",
+                "WS 008": "borg_plasma_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "cutting_beam_small",
+                "WS 010": "cutting_beam_small",
+                "WS 012": "cutting_beam_small",
+                "WS 013": "cutting_beam_small"
+            }
+        }
+    ]
+}

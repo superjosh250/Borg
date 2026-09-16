@@ -1,0 +1,10 @@
+{
+"graphics":{
+	"characters":{
+		"samara": "graphics/portraits/characters/portrait_samaraWeaving01.png"
+	}
+},
+"designTypeColors":{
+		"Borg Tech":[110,114,100,255]
+	}
+}

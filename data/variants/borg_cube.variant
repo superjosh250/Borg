@@ -1,0 +1,85 @@
+{
+    "displayName": "Cube",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "borg_cube",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "borg_cube",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "borg_plasma_beam",
+                "WS 009": "borg_plasma_beam",
+                "WS 005": "borg_plasma_beam",
+                "WS 003": "borg_plasma_beam",
+                "WS 007": "borg_plasma_beam",
+                "WS 002": "borg_plasma_beam",
+                "WS 001": "borg_plasma_beam",
+                "WS 030": "borg_plasma_beam",
+                "WS 031": "borg_plasma_beam",
+                "WS 028": "borg_plasma_beam",
+                "WS 032": "borg_plasma_beam",
+                "WS 027": "borg_plasma_beam",
+                "WS 000": "borg_plasma_beam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 044": "borg_photon_torpedo",
+                "WS 042": "borg_photon_torpedo",
+                "WS 041": "borg_photon_torpedo",
+                "WS 040": "borg_plasma_torpedo",
+                "WS 043": "borg_photon_torpedo",
+                "WS 034": "borg_photon_torpedo",
+                "WS 033": "borg_plasma_torpedo"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 026": "borg_plasma_beam",
+                "WS 025": "borg_plasma_beam",
+                "WS 018": "borg_plasma_beam",
+                "WS 012": "borg_plasma_beam",
+                "WS 017": "borg_plasma_beam",
+                "WS 011": "borg_plasma_beam",
+                "WS 015": "borg_plasma_beam",
+                "WS 013": "borg_plasma_beam",
+                "WS 024": "borg_plasma_beam",
+                "WS 014": "borg_plasma_beam",
+                "WS 016": "cutting_beam",
+                "WS 021": "borg_plasma_beam",
+                "WS 020": "borg_plasma_beam",
+                "WS 019": "borg_plasma_beam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 035": "borg_photon_torpedo",
+                "WS 038": "borg_photon_torpedo",
+                "WS 036": "borg_photon_torpedo",
+                "WS 039": "borg_photon_torpedo",
+                "WS 037": "borg_photon_torpedo"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 023": "cutting_beam",
+                "WS 029": "cutting_beam",
+                "WS 010": "cutting_beam_medium",
+                "WS 006": "cutting_beam"
+            }
+        }
+    ]
+}

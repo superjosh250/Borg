@@ -1,0 +1,34 @@
+{
+  "id": "borg", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "Borg", # Displayed to the player
+  "author": "captainBrassen",
+  "utility": false,
+  "version": "0.5.0",
+  "description": "This is the Borg addon for the Star Trek Dimensions Crossed mod. ",
+  "gameVersion": "0.98a-RC5",
+  "jars": [ "jars/UFP.jar" ],
+  "modPlugin":"data.scripts.BorgModPlugin",
+  "dependencies": [
+    {
+        "id": "lw_lazylib",
+        "name": "LazyLib", # Optional (recommended)
+   #     #"version": "2.7b" # Optional
+    },
+    {
+        "id": "MagicLib",
+        "name": "MagicLib",
+   #     #"version": "0.34"
+    },
+    {
+        "id": "shaderLib",
+        "name": "GraphicsLib",
+   #     #"version": "1.5.1"
+    },
+  { "id": "lunalib",    
+    "name": "LunaLib" },
+    
+  { "id": "stad_ufp",    
+    "name": "Star Trek Across Dimensions" }
+  ],
+}
+}

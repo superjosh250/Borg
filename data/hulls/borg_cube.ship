@@ -1,0 +1,758 @@
+{
+    "hullName":"Cube",
+    "hullId":"borg_cube",
+    "hullSize":"CAPITAL_SHIP",
+    "style":"BORG",
+    "spriteName":"graphics/ships/borg_cube.png",
+    "height":1024,
+    "width":1024,
+    "center":[
+        512, 512
+    ],
+    "collisionRadius":1024,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":1000,
+    "viewOffset":0,
+    "builtInMods":[
+        "borgShields",
+        "borgAdaptationMatrix",
+        "borgRegenMatrix",
+        "hive_mind"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     384,   -422.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     414,     -389
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   449.5,   -362.5
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     400,   -177.5
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     400,   -177.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   418.5,     -154
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   383.5,    -34.5
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     334,     -107
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   408.5,      293
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   349.5,      256
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                     200,     -454
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                     242,   -431.5
+            ]
+        },
+        {
+            "id":"WS 012",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                   327.5,   -443.5
+            ]
+        },
+        {
+            "id":"WS 013",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                      -5,     -423
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                      92,   -337.5
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                  -190.5,   -452.5
+            ]
+        },
+        {
+            "id":"WS 016",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                  -140.5,     -376
+            ]
+        },
+        {
+            "id":"WS 017",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                  -202.5,   -310.5
+            ]
+        },
+        {
+            "id":"WS 018",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                  -356.5,     -447
+            ]
+        },
+        {
+            "id":"WS 019",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                   307.5,    427.5
+            ]
+        },
+        {
+            "id":"WS 020",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                     249,    406.5
+            ]
+        },
+        {
+            "id":"WS 021",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                    57.5,    446.5
+            ]
+        },
+        {
+            "id":"WS 022",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                    57.5,    446.5
+            ]
+        },
+        {
+            "id":"WS 023",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                      72,      333
+            ]
+        },
+        {
+            "id":"WS 024",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                   -24.5,      421
+            ]
+        },
+        {
+            "id":"WS 025",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                    -172,    434.5
+            ]
+        },
+        {
+            "id":"WS 026",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":90,
+            "locations":[
+                    -217,    402.5
+            ]
+        },
+        {
+            "id":"WS 027",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -407,     -163
+            ]
+        },
+        {
+            "id":"WS 028",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                  -304.5,     -272
+            ]
+        },
+        {
+            "id":"WS 029",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -381,    -34.5
+            ]
+        },
+        {
+            "id":"WS 030",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -429,    368.5
+            ]
+        },
+        {
+            "id":"WS 031",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -424,    221.5
+            ]
+        },
+        {
+            "id":"WS 032",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -424,   -371.5
+            ]
+        },
+        {
+            "id":"WS 033",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   323.5,       37
+            ]
+        },
+        {
+            "id":"WS 034",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   395.5,     77.5
+            ]
+        },
+        {
+            "id":"WS 035",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":89,
+            "locations":[
+                      40,      175
+            ]
+        },
+        {
+            "id":"WS 036",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":89.5,
+            "locations":[
+                      11,      256
+            ]
+        },
+        {
+            "id":"WS 037",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                   121.5,   -234.5
+            ]
+        },
+        {
+            "id":"WS 038",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":271,
+            "locations":[
+                   -33.5,   -250.5
+            ]
+        },
+        {
+            "id":"WS 039",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":270,
+            "locations":[
+                    -169,     -177
+            ]
+        },
+        {
+            "id":"WS 040",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":181,
+            "locations":[
+                    -352,     -2.5
+            ]
+        },
+        {
+            "id":"WS 041",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -453,       56
+            ]
+        },
+        {
+            "id":"WS 042",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":180,
+            "locations":[
+                    -438,     -225
+            ]
+        },
+        {
+            "id":"WS 043",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                   320.5,   -153.5
+            ]
+        },
+        {
+            "id":"WS 044",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":124,
+            "angle":0,
+            "locations":[
+                     450,     -293
+            ]
+        },
+        {
+            "id":"Tractor_Emitter",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                     222,   -115.5
+            ]
+        },
+        {
+            "id":"Tractor_Emitter 01",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":90.5,
+            "locations":[
+                     -56,      329
+            ]
+        },
+        {
+            "id":"Tractor_Emitter 02",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":270,
+            "locations":[
+                  -109.5,     -316
+            ]
+        },
+        {
+            "id":"Tractor_Emitter 03",
+            "size":"LARGE",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":180,
+            "locations":[
+                    -317,       93
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                     216,     -284,
+                   231.5,   -326.5,
+                   214.5,   -325.5
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                  -307.5,        7,
+                    -384,      1.5,
+                  -427.5,    -75.5,
+                    -421,       12
+            ]
+        },
+        {
+            "id":"LB 002",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                   218.5,      264,
+                   221.5,    322.5
+            ]
+        },
+        {
+            "id":"LB 003",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                  -236.5,      280,
+                  -255.5,    323.5,
+                    -308,    297.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -462.5, 314
+            ],
+            "length":0.5,
+            "width":23,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 99
+            ],
+            "length":0.5,
+            "width":10,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 167.5
+            ],
+            "length":0.5,
+            "width":31,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 59
+            ],
+            "length":0.5,
+            "width":21,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 43
+            ],
+            "length":0.5,
+            "width":7,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -60
+            ],
+            "length":0.5,
+            "width":21,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -43
+            ],
+            "length":0.5,
+            "width":7,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -99.5
+            ],
+            "length":0.5,
+            "width":9,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -275
+            ],
+            "length":0.5,
+            "width":22,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -275
+            ],
+            "length":0.5,
+            "width":22,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, -315.5
+            ],
+            "length":0.5,
+            "width":22,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 271
+            ],
+            "length":0.5,
+            "width":23,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -462.5, 240.5
+            ],
+            "length":0.5,
+            "width":10,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        }
+    ],
+    "bounds":[
+          -464.5,    469.5,
+             468,    469.5,
+             468,   -469.5,
+          -464.5,   -469.5
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "borg_photon_torpedoM",
+  "specClass": "projectile",
+  "projectileSpecId": "borg_photon",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/borg_photonLauncherM.png",
+  #"turretGunSprite": "graphics/weapons/photonIcon.png",
+  "turretUnderSprite": "graphics/weapons/borg_photonLauncherM.png",
+  "hardpointSprite": "graphics/weapons/borg_photonLauncherM.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

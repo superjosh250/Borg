@@ -1,0 +1,29 @@
+{
+    "BORG_IMPULSE":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":3,
+		"contrailWidthMult":1,
+		"contrailWidthAddedFractionAtEnd":1.75,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[209,228,207,100],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/fedGlow_test.png",
+		"glowOutline":"graphics/fx/fedGlow_test.png",
+		"omegaMode":true,
+		"glowSizeMult":1.25,
+		"glowAlternateColor":[159,185,157,255],
+		"engineColor":[159,185,157,100],
+		
+		#"contrailParticleSizeMult":4,
+		#"contrailParticleDuration":1,
+		#"contrailParticleFinalSizeMult":2.5,
+		#"contrailMaxSpeedMult":0.5f,
+		#"contrailAngularVelocityMult":0f,
+		#"contrailColor":[100,165,255,25],
+		#"contrailCampaignColor":[100,165,255,75],
+		#"type":"GLOW" # GLOW or SMOKE
+	},
+}

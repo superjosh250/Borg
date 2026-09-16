@@ -1,0 +1,46 @@
+{
+	"unimatrix":{
+		"defaultName":"Unimatrix Station", # used if name=null in addCustomEntity()
+		"defaultRadius":64, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_unimatrix_station",
+		"interactionImage":"graphics/illustrations/officeIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/borg_uniMatrix.png",
+		"spriteWidth":128,
+		"spriteHeight":128,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"uplink_yard":{
+		"defaultName":"Production Shipyard", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_borg_shipyard",
+		"interactionImage":"graphics/illustrations/officeIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/borg_uplink.png",
+		"spriteWidth":73,
+		"spriteHeight":64,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	}
+}
+
+

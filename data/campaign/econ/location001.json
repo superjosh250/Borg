@@ -1,0 +1,110 @@
+{
+	"starSystem":"Location001",
+	"markets":[
+		{
+			"entities":["unimatrix0001"],
+			"faction":"borg",
+			"size":10,
+			"submarkets":["open_market", "generic_military", "black_market"],
+			"startingConditions":[
+				"population_10",
+				"habitable",
+				"hot",
+				"ore_sparse",
+				"volatiles_diffuse",
+				"dilithium_ore",
+				"large_refugee_population",
+				"outpost",
+				"trade_center",
+				"industrial_polity",
+			],
+			"industries":[
+				["assimilated_population", "alpha_core"],
+				["assimilated_spaceport", "alpha_core"],
+				["waystation_alpha", "alpha_core"],
+				"resourceAllocation",
+				"resource_assembler",
+				["fleet_defense", "alpha_core"]
+			],
+		},
+
+		##Asteroid Belt Shipyard
+		{
+			"entities":["loc001_uplink_yard_01"],
+			"faction":"borg",
+			"size":10,
+			"submarkets":["open_market", "generic_military", "black_market"],
+			"startingConditions":[
+				"population_10",
+				"habitable",
+				"hot",
+				"trade_center",
+				"industrial_polity",
+			],
+			"industries":[
+				["assimilated_population", "alpha_core"],
+				["assimilated_spaceport", "alpha_core"],
+				["waystation_alpha", "alpha_core"],
+				["shipyard", "pristine_nanoforge", "alpha_core"],
+				["technology_assembler", "pristine_nanoforge", "omega_core"],
+				["fleet_defense", "alpha_core"]
+			],
+		},
+		{
+			"entities":["loc001_uplink_yard_02"],
+			"faction":"borg",
+			"size":10,
+			"submarkets":["open_market", "generic_military", "black_market"],
+			"startingConditions":[
+				"population_10",
+				"habitable",
+				"hot",
+				"trade_center",
+				"industrial_polity",
+			],
+			"industries":[
+				["assimilated_population", "alpha_core"],
+				["assimilated_spaceport", "alpha_core"],
+				["waystation_alpha", "alpha_core"],
+				["shipyard", "pristine_nanoforge", "alpha_core"],
+				["technology_assembler", "pristine_nanoforge", "omega_core"],
+				["fleet_defense", "alpha_core"]
+			],
+		},
+
+		##Pirates Ownership
+		{
+			"entities":["loc001_rime"],
+			"faction":"pirates",
+			"size":7,
+			"submarkets":["open_market", "generic_military", "black_market"],
+			"startingConditions":[
+				"population_7",
+				"ice",
+				"very_cold",
+				"low_gravity",
+				"thin_atmosphere",
+				"ore_sparse",
+				"volatiles_diffuse",
+				"large_refugee_population",
+				"organized_crime",
+				"frontier",
+				"outpost",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"refining",
+				"lightindustry",
+				["orbitalworks", "corrupted_nanoforge", "gamma_core"],
+				"militarybase",
+				"highcommand",
+				"waystation",
+			],
+		},
+	],
+}
+
+
+

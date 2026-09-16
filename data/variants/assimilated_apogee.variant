@@ -1,0 +1,34 @@
+{
+    "displayName": "Assimilated",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "assimilated_apogee",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "assimilated_apogee",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "locust",
+                "WS 005": "nb_bomblauncher",
+                "WS 018": "reaper",
+                "WS 017": "reaper",
+                "WS 002": "railgun",
+                "WS 000": "bomb",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 015": "cutting_beam_medium",
+                "WS 016": "cutting_beam_medium",
+                "WS 006": "borg_photon_torpedoM",
+                "WS 004": "borg_plasma_medium",
+                "WS 003": "borg_plasma_medium"
+            }
+        }
+    ]
+}

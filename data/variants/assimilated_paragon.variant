@@ -1,0 +1,49 @@
+{
+    "displayName": "Paragon",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "assimilated_paragon",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "assimilated_paragon",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "borg_plasma_medium",
+                "WS 005": "borg_plasma_medium",
+                "WS 006": "borg_plasma_medium",
+                "WS 007": "borg_plasma_medium",
+                "WS 015": "taclaser",
+                "WS 014": "taclaser",
+                "WS 016": "borg_plasma_small",
+                "WS 017": "borg_plasma_small",
+                "WS 020": "cutting_beam_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "borg_photon_torpedo",
+                "WS 013": "borg_photon_torpedo",
+                "WS 008": "borg_photon_torpedoS",
+                "WS 009": "borg_photon_torpedoS",
+                "WS 011": "annihilator",
+                "WS 010": "annihilator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "light_mass_driver",
+                "WS 002": "light_mass_driver",
+                "WS 000": "clusterbomb",
+                "WS 001": "clusterbomb"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Atlas",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "assimilated_atlas",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "assimilated_atlas",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "phasebeam",
+                "WS 001": "phasebeam",
+                "WS 000": "ionbeam",
+                "WS 017": "borg_plasma_medium",
+                "WS 010": "borg_plasma_medium",
+                "WS 009": "cutting_beam_medium",
+                "WS 006": "borg_plasma_medium",
+                "WS 005": "borg_plasma_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "jackhammer",
+                "WS 004": "jackhammer",
+                "WS 014": "bomb",
+                "WS 016": "bomb"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mininglaser",
+                "WS 011": "mininglaser",
+                "WS 015": "mininglaser",
+                "WS 013": "mininglaser"
+            }
+        }
+    ]
+}

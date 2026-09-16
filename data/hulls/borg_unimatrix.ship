@@ -1,0 +1,754 @@
+{
+    "hullName": "Unimatrix",
+    "hullId": "borg_unimatrix",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "BORG",
+    "spriteName": "graphics/ships/borg_uniMatrix.png",
+    "height": 1024,
+    "width": 1024,
+    "center": [
+        512, 512
+    ],
+    "collisionRadius": 1024,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 964,
+    "viewOffset": 0,
+    "builtInMods": [
+        "borgShields",
+        "hive_mind",
+        "borgAdaptationMatrix"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   373.5,      -52
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     361,     33.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     349,       31
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   377.5,    -91.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                     324,    -43.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   336.5,    -30.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   273.5,    -45.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                   321.5,      -78
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 312,
+            "locations": [
+                    81.5,   -443.5
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 318,
+            "locations": [
+                   134.5,   -380.5
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 308.5,
+            "locations": [
+                    98.5,   -393.5
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                    88.5,     -334
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 307.5,
+            "locations": [
+                    80.5,   -326.5
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 314,
+            "locations": [
+                      26,     -408
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 181,
+            "locations": [
+                   -55.5,     -263
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                     -71,   -314.5
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                     -39,     -292
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 222.5,
+            "locations": [
+                   -21.5,     -252
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 227.5,
+            "locations": [
+                     -10,   -274.5
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 226,
+            "locations": [
+                    40.5,   -318.5
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -64.5,      471
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -81,      445
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   -34.5,    440.5
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                   116.5,    426.5
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     137,    446.5
+            ]
+        },
+        {
+            "id": "WS 025",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     133,      473
+            ]
+        },
+        {
+            "id": "WS 026",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                      15,      406
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                    13.5,      448
+            ]
+        },
+        {
+            "id": "WS 028",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                      -9,      379
+            ]
+        },
+        {
+            "id": "WS 029",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 130.5,
+            "locations": [
+                    -202,    356.5
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 129,
+            "locations": [
+                    -252,    312.5
+            ]
+        },
+        {
+            "id": "WS 031",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 130,
+            "locations": [
+                    -206,      249
+            ]
+        },
+        {
+            "id": "WS 032",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 133,
+            "locations": [
+                  -326.5,    234.5
+            ]
+        },
+        {
+            "id": "WS 033",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 136,
+            "locations": [
+                  -326.5,      188
+            ]
+        },
+        {
+            "id": "WS 034",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 135,
+            "locations": [
+                    -253,      180
+            ]
+        },
+        {
+            "id": "WS 035",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 132.5,
+            "locations": [
+                    -123,      285
+            ]
+        },
+        {
+            "id": "WS 036",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -387.5,   -114.5
+            ]
+        },
+        {
+            "id": "WS 037",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 182,
+            "locations": [
+                    -387,     -146
+            ]
+        },
+        {
+            "id": "WS 038",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -322,     -147
+            ]
+        },
+        {
+            "id": "WS 039",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -322.5,   -120.5
+            ]
+        },
+        {
+            "id": "WS 040",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -314,      -36
+            ]
+        },
+        {
+            "id": "WS 041",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -358,     -6.5
+            ]
+        },
+        {
+            "id": "WS 042",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -390.5,     86.5
+            ]
+        },
+        {
+            "id": "WS 043",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                  -263.5,       30
+            ]
+        },
+        {
+            "id": "WS 044",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 180,
+            "locations": [
+                    -262,    -51.5
+            ]
+        },
+        {
+            "id": "WS 045",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 90,
+            "locations": [
+                      77,      190
+            ]
+        },
+        {
+            "id": "WS 046",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 115.5,
+            "locations": [
+                   -23.5,    190.5
+            ]
+        },
+        {
+            "id": "WS 047",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 179,
+            "locations": [
+                   -66.5,     53.5
+            ]
+        },
+        {
+            "id": "WS 048",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 233.5,
+            "locations": [
+                   -68.5,    -69.5
+            ]
+        },
+        {
+            "id": "WS 049",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 359.5,
+            "locations": [
+                      90,       75
+            ]
+        },
+        {
+            "id": "WS 050",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 312.5,
+            "locations": [
+                   106.5,       18
+            ]
+        },
+        {
+            "id": "WS 051",
+            "size": "LARGE",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 270,
+            "locations": [
+                    75.5,      -75
+            ]
+        },
+        {
+            "id": "WS 052",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 15,
+            "locations": [
+                      37,     43.5
+            ]
+        },
+        {
+            "id": "WS 053",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 0,
+            "locations": [
+                    88.5,       31
+            ]
+        },
+        {
+            "id": "WS 054",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 126,
+            "locations": [
+                   -58.5,    173.5
+            ]
+        },
+        {
+            "id": "WS 055",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 90,
+            "locations": [
+                    74.5,    149.5
+            ]
+        },
+        {
+            "id": "WS 056",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 269,
+            "locations": [
+                       2,      4.5
+            ]
+        },
+        {
+            "id": "WS 057",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 271,
+            "locations": [
+                    20.5,      -58
+            ]
+        },
+        {
+            "id": "WS 058",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 180,
+            "locations": [
+                   -52.5,      -34
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -81.5,      126,
+                  -117.5,      190,
+                  -120.5,       72
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   220.5,     -132,
+                     200,     -200,
+                     285,     -119
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             337,       74,
+             450,    -43.5,
+           338.5,     -145,
+           315.5,     -131,
+           130.5,   -339.5,
+        
+             201,     -404,
+              89,   -511.5,
+          -119.5,   -307.5,
+          -115.5,   -292.5,
+            -6.5,     -189,
+        
+              13,     -219,
+             116,   -121.5,
+              66,      -74,
+           -78.5,      -79,
+          -108.5,   -112.5,
+        
+          -265.5,     -111,
+            -274,   -221.5,
+          -433.5,     -221,
+            -456,    -53.5,
+          -455.5,     70.5,
+        
+            -389,      139,
+            -396,      196,
+          -196.5,      398,
+          -178.5,      388,
+          -156.5,    420.5,
+        
+          -141.5,    440.5,
+             -92,    494.5,
+             194,    496.5,
+           202.5,      337,
+           107.5,      337,
+        
+            -101,    332.5,
+           -72.5,      295,
+            -274,       87,
+          -237.5,     68.5,
+          -230.5,       40,
+        
+            -110,       45,
+          -108.5,      214,
+             185,      216,
+           199.5,       17,
+           251.5,      -30
+    # 40 points total.
+    ]
+}

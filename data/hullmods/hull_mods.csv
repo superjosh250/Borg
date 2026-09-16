@@ -1,0 +1,36 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Borg Shield,borgShields,1,,Borg Tech,"shields, defensive, borg",Shields,120250,,,,0,0,0,0,BORG.data.hullmods.BorgShields,"Borg Shields deploy significantly faster than standard shield systems, unfolding at an increased rate to rapidly establish full coverage when activated. Shield rotation speed is enhanced, allowing the shield surface to better track incoming fire and redistribute impact stress.
+
+The shield system integrates a dedicated shield hitpoint layer, displayed through a universal shield integrity bar. Shield strength is visually represented using Borg-standard coloration for immediate combat clarity.
+
+While shields are active, incoming EMP effects are partially deflected, reducing system disruption under sustained electromagnetic attack.
+
+This hullmod modifies shield behavior only and does not alter shield efficiency, upkeep, or flux dissipation.","Advanced Borg shield system with accelerated deployment, enhanced rotation, EMP deflection, and adaptive visual control.",,graphics/hullmods/borgShield.png
+,,,,,,,,,,,,,,,,,,,
+Regeneration Matrix,borgRegenMatrix,1,,Borg Tech,"special, regen, borg",Special,25780,,,,0,0,0,0,BORG.data.hullmods.RegenerationMatrix,"Autonomous Borg regeneration matrix restores hull integrity by %s every %s seconds. Capital-class vessels regenerate %s every %s seconds.
+
+While venting flux, hull damage is repaired by %s per %s flux dissipated. Armor plating regenerates by %s every %s seconds, up to %s of maximum cell strength.",,,graphics/hullmods/borgRegen.png
+Adaptive Matrix,borgAdaptationMatrix,1,,Borg Tech,"special, adaptive, borg",Special,12500,,,,0,0,0,0,BORG.data.hullmods.AdaptationMatrix,"When deployed in combat, weapon signatures are processed by the Collective. Adaptive resistance progress is shared at %s per additional linked vessel.
+
+The Hive can sustain only %s concurrent signature analysis thread(s). If a Core Processor hull is present in the battlespace, analysis capacity increases by %s.
+
+When an unknown hostile signature is encountered and capacity exists, the Collective has a %s probability to allocate a learning focus.
+
+At %s resistance, immunity is achieved and propagated across the link. Focus is released for immediate redeployment.
+
+Maximum effective Hive link: %s vessels.
+
+Resistance is inevitable.","Adaptive defense matrix learns hostile weapon signatures, reducing damage and propagating resistance.",,graphics/hullmods/adaptationMartix.png
+Hive Mind,hive_mind,1,,Borg Tech,"special, hiveMind, borg",Special,3000,,,,0,0,0,0,BORG.data.hullmods.HiveMind,"This vessel is integrated into the Borg Hive Mind.
+
+When deployed in combat, incoming weapon signatures are analyzed collectively across linked Borg vessels. Adaptive resistance progress is shared at %s per additional linked unit.
+
+The Hive can actively analyze only a limited number of hostile weapon signatures at once. Base capacity is %s concurrent signature. If a designated Core Processor hull is present, capacity increases by %s.
+
+When a new hostile signature is encountered and capacity is available, the Hive has a %s chance to allocate a learning focus.
+
+Once adaptive resistance reaches %s, full immunity is achieved and propagated to all linked vessels. The learning focus is then released.
+
+Maximum effective Hive link size: %s vessels.
+
+Resistance is inevitable. Adaptation is absolute.","Hive-mind integration synchronizes all systems, eliminating latency through collective tactical awareness.",,graphics/hullmods/hiveMind.png

@@ -1,0 +1,325 @@
+{
+    "hullName": "Uplink",
+    "hullId": "borg_uplink",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "BORG",
+    "spriteName": "graphics/ships/borg_uplink.png",
+    "height": 512,
+    "width": 585,
+    "center": [
+        292.5, 256
+    ],
+    "collisionRadius": 512,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 472,
+    "viewOffset": 0,
+    "builtInMods": [
+        "borgShields",
+        "hive_mind",
+        "borgAdaptationMatrix"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                   186.5,       24
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                   138.5,      -27
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                    74.5,       26
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                     -17,    -95.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                   -11.5,   -123.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                      45,   -167.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                      52,     -279
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                      51,     -239
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                    76.5,     -161
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                   -19.5,   -191.5
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                    -4.5,    211.5
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                    -3.5,    196.5
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                    -7.5,      110
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                    55.5,      127
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                      25,     70.5
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                  -122.5,       32
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                  -246.5,       34
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                    -200,     32.5
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                    -129,     -0.5
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                   -71.5,       32
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                     122,       24
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "LARGE",
+            "type": "COMPOSITE",
+            "mount": "HIDDEN",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                    90.5,      -21
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+           250.5,       32,
+           250.5,       16,
+            90.5,     18.5,
+            90.5,        2,
+             152,      -15,
+        
+             151,    -31.5,
+            53.5,      -29,
+              27,      -49,
+            27.5,      -71,
+              70,      -70,
+        
+            86.5,    -92.5,
+              85,     -210,
+              56,     -291,
+            41.5,   -290.5,
+               7,      -92,
+        
+             -10,    -92.5,
+            -8.5,     -155,
+             -13,   -230.5,
+           -23.5,     -230,
+           -32.5,    -60.5,
+        
+           -42.5,      -27,
+           -50.5,     -7.5,
+            -154,     -5.5,
+            -155,        4,
+          -114.5,        7,
+        
+            -115,     24.5,
+          -249.5,       25,
+            -249,     38.5,
+           -77.5,     42.5,
+           -44.5,       60,
+        
+           -15.5,       80,
+           -16.5,    178.5,
+            -6.5,      293,
+               5,    292.5,
+             6.5,     81.5,
+        
+              14,      101,
+            14.5,      139,
+              98,      138,
+           107.5,    127.5,
+           105.5,    119.5,
+        
+              34,    114.5,
+            53.5,     60.5,
+            55.5,     32.5
+    # 43 points total.
+    ]
+}

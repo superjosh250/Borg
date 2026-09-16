@@ -1,0 +1,80 @@
+id,type,text1,text2,text3,text4,notes,,,
+# Types: WEAPON,SHIP,RESOURCE,CUSTOM,ACTION_TOOLTIP,ASTEROID,PLANET,SHIP_SYSTEM,FACTION,TERRAIN
+#astral,SHIP,Text goes here,,,,,,,
+borg,FACTION,"The Borg Collective is a hyper-advanced cybernetic hive mind driven by the relentless pursuit of technological and biological perfection through forced assimilation. Operating without individual intent or civilian governance, the Collective expands continuously by consuming external technology, resources, and populations into its unified consciousness.
+
+Unicomplex Complex 01 stands as the monolithic core of the Collective's neural network, fortified by insurmountable structural defense nodes and swarms of cybernetic armadas. Borg space produces specialized, cyber-integrated commodities—Assimilated Drones, Cortical Nodes, Nanite Arrays, and Biological Biomass—alongside energy-dense Transwarp Components. Collective fleet doctrine centers on massive, geometric vessels featuring self-repairing armor, adaptive energy shielding, and heavy beam arrays designed for relentless attrition and total tactical absorption.",,,,,,,
+,,,,,,,,,
+borg_probe,SHIP,"Designation: Borg Probe. A minimal extension of the Collective—purpose-built, expendable, sufficient. Its hull houses only what is required: propulsion, sensors, and the means to adapt. All other functions are unnecessary.
+
+Probes precede the Cube. They observe, evaluate, and transmit. Cultures are analyzed, defenses quantified, biological and technological distinctiveness indexed for later assimilation. Loss is irrelevant; destruction refines our understanding.
+
+Each Probe is autonomous only in function, never in will. It exists to gather data, to test resistance, and to mark prey. Where it travels, the Collective follows.
+Efficiency is perfection. Observation is inevitable.",,,,,,,
+borg_obelisk,SHIP,"Designation: Borg Obelisk. A vertical expression of Collective permanence, engineered for presence rather than pursuit. Its elongated form maximizes power flow, sensor reach, and signal dominance, projecting authority across vast volumes of space.
+
+Obelisks are deployed as beacons and bastions. They relay transwarp data, synchronize distant nodes of the Collective, and impose continuous surveillance on strategic regions. Assimilation processes operate without interruption; drones are processed, refined, and redeployed in steady cycles.
+
+The hull is layered for endurance, optimized to withstand prolonged assault while regeneration systems operate in parallel. Weapons are secondary to function—deterrence through inevitability rather than excess force.
+
+The Obelisk does not advance. It stands. Its existence reshapes the battlespace, narrowing outcomes until only compliance remains.
+Continuity is perfection. The Collective endures.",,,,,,,
+borg_pyramid,SHIP,"Designation: Borg Pyramid. A focused convergence of authority, defense, and assimilation throughput. Its geometry channels power upward and inward, concentrating processing, command routing, and shield harmonics into a single, resilient core.
+
+Pyramids are deployed where control must be established and held. They serve as regional anchors of the Collective—coordinating subordinate vessels, managing large-scale assimilation, and enforcing order with sustained, methodical force.
+
+Layered hull strata regenerate independently, while weapon systems are distributed to deny exploitable angles of attack. Damage is absorbed, analyzed, and corrected in real time. Resistance patterns are logged and neutralized.
+
+The Pyramid does not pursue. It endures, reshaping its operational space until compliance is achieved. Stability is efficiency. Assimilation is permanent.",,,,,,,
+borg_sphere,SHIP,"Borg Sphere. A compact expression of Collective intent, optimized for precision, velocity, and survivability. Its curved hull distributes force evenly, minimizing vulnerability while sustaining dense weapon and drone deployment systems.
+
+Deployed where adaptation must be rapid and response immediate, the Sphere evaluates, adjusts, and persists until objectives are met. Efficiency is perfection. Resistance is futile.",,,,,,,
+borg_diamond,SHIP,"Designation: Borg Diamond. An optimized instrument of command and adaptation, refined beyond the Cube for precision application of Collective will. Its geometry concentrates function inward, maximizing processing density, shield modulation, and tactical response.
+
+Diamonds are deployed where complexity is high and resistance is anomalous. They coordinate, adapt, and override—serving as mobile nodes of enhanced cognition, capable of independent tactical synthesis while remaining fully integrated with the Collective.
+
+Heavy armament and rapid regeneration ensure persistence under sustained assault. Damage is anticipated, corrected, and exploited. Enemy innovation is not a threat; it is a resource.
+
+The Diamond does not overwhelm by mass alone. It understands, then corrects inefficiency.
+Adaptation is inevitable. Control is absolute.",,,,,,,
+borg_cube,SHIP,"Designation: Borg Cube. A standardized vessel of the Collective, engineered for total function and adaptive superiority. Its form is absolute: modular, redundant, and endlessly self-correcting. Damage is analyzed, resistance cataloged, and all encounters resolved through assimilation.
+This construct is not a weapon of war but an instrument of purpose. Your distinctiveness will be added to the Collective. Resistance is futile.",,,,,,,
+,,,,,,,,,
+borg_plasma_beam,WEAPON,"A directed Borg plasma assimilation beam designed to destabilize target integrity through adaptive energy saturation.
+
+Rather than relying solely on immediate damage, this weapon may induce PLASMA BURN, a sustained degradation state caused by invasive plasma feedback. Once applied, PLASMA BURN cannot be reapplied until it expires.,Applies a stacking structural degradation effect.,Increases damage taken over time.",,,,,,,
+borg_plasma_medium,WEAPON,"A directed Borg plasma assimilation beam designed to destabilize target integrity through adaptive energy saturation.
+
+Rather than relying solely on immediate damage, this weapon may induce PLASMA BURN, a sustained degradation state caused by invasive plasma feedback. Once applied, PLASMA BURN cannot be reapplied until it expires.,Applies a stacking structural degradation effect.,Increases damage taken over time.",,,,,,,
+borg_plasma_small,WEAPON,"A directed Borg plasma assimilation beam designed to destabilize target integrity through adaptive energy saturation.
+
+Rather than relying solely on immediate damage, this weapon may induce PLASMA BURN, a sustained degradation state caused by invasive plasma feedback. Once applied, PLASMA BURN cannot be reapplied until it expires.,Applies a stacking structural degradation effect.,Increases damage taken over time.",,,,,,,
+cutting_beam,WEAPON,"A sustained Borg cutting beam that dynamically adjusts its damage based on the target’s defenses.
+
+• Deals reduced damage to active shields
+• Deals increased damage to armor
+• Deals increased damage to exposed hull
+
+Damage is recalculated continuously at the beam’s impact point.",,,,,,,
+cutting_beam_medium,WEAPON,"A sustained Borg cutting beam that dynamically adjusts its damage based on the target’s defenses.
+
+• Deals reduced damage to active shields
+• Deals increased damage to armor
+• Deals increased damage to exposed hull
+
+Damage is recalculated continuously at the beam’s impact point.",,,,,,,
+cutting_beam_small,WEAPON,"A sustained Borg cutting beam that dynamically adjusts its damage based on the target’s defenses.
+
+• Deals reduced damage to active shields
+• Deals increased damage to armor
+• Deals increased damage to exposed hull
+
+Damage is recalculated continuously at the beam’s impact point.",,,,,,,
+borg_photon_torpedo,WEAPON," A guided energy-matter delivery system calibrated for inevitability. Yield, frequency, and detonation parameters adapt in transit, refining lethality with each engagement.",,,,,,,
+borg_photon_torpedoM,WEAPON,"A guided energy-matter delivery system calibrated for inevitability. Yield, frequency, and detonation parameters adapt in transit, refining lethality with each engagement. Adapted to function aboard mediums-sized vessels for optimal operation.",,,,,,,
+borg_photon_torpedoS,WEAPON,"Optimized weapon for small vessels of the Collective. Operational capacity follows the same standard guidance.  A guided energy-matter delivery system calibrated for inevitability. Yield, frequency, and detonation parameters adapt in transit, refining lethality with each engagement.",,,,,,,
+,,,,,,,,,
+station_unimatrix_station,CUSTOM,"A Unimatrix command station of the Borg Collective. This installation coordinates assimilation, regeneration, and regional defense operations, serving as a nexus for drone processing, fleet control, and continuous adaptation. The station does not negotiate. It endures, corrects inefficiency, and enforces compliance. Resistance is futile.",,,,,,,
+station_borg_shipyard,CUSTOM,"A Borg industrial nexus dedicated to the construction, repair, and optimization of Collective vessels. Raw materials and acquired technology are converted into standardized hulls and components with maximal efficiency. Production is continuous, losses are anticipated, and output is adjusted to meet assimilation demands. Resistance is irrelevant.",,,,,,,
+assimilated-terran,PLANET,"Former Terran-class world. Indigenous civilization encountered, evaluated, and deemed biologically and technologically distinct. Planetary infrastructure has been fully integrated into the Collective. Atmosphere, biosphere, and gravity remain within Terran norms to maximize drone efficiency. Urban regions have been restructured into assimilation hubs and processing centers. Cultural, political, and individual identities have been erased. The planet now functions as a resource node and population conversion site.
+Resistance was inefficient. Assimilation was inevitable.",,,,,,,

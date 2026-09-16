@@ -1,0 +1,379 @@
+{
+    "hullName":"Obelisk",
+    "hullId":"borg_obelisk",
+    "hullSize":"DESTROYER",
+    "style":"BORG",
+    "spriteName":"graphics/ships/borg_obelisk.png",
+    "height":512,
+    "width":144,
+    "center":[
+        72, 256
+    ],
+    "collisionRadius":450,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":400,
+    "viewOffset":0,
+    "builtInMods":[
+        "borgShields",
+        "hive_mind",
+        "borgAdaptationMatrix",
+        "borgRegenMatrix"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     235,      -18
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     235,       18
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     218,       28
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     218,      -28
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"SMALL",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   239.5,    -30.5
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                    -107,    -58.5
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"MEDIUM",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                   102.5,      -61
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   239.5,     30.5
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   205.5,    -42.5
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                      97,       64
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"MEDIUM",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                     107,       59
+            ]
+        },
+        {
+            "id":"WS 016",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                    -107,       59
+            ]
+        },
+        {
+            "id":"WS 017",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                     -90,      -43
+            ]
+        },
+        {
+            "id":"WS 018",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                    -123,       59
+            ]
+        },
+        {
+            "id":"WS 019",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -251,        0
+            ]
+        },
+        {
+            "id":"WS 020",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -231,      -15
+            ]
+        },
+        {
+            "id":"WS 021",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -251,        0
+            ]
+        },
+        {
+            "id":"WS 022",
+            "size":"MEDIUM",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -230,      -32
+            ]
+        },
+        {
+            "id":"WS 023",
+            "size":"MEDIUM",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -230,       32
+            ]
+        },
+        {
+            "id":"WS 024",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -235,       18
+            ]
+        },
+        {
+            "id":"WS 025",
+            "size":"MEDIUM",
+            "type":"HYBRID",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                      -2,     16.5
+            ]
+        },
+        {
+            "id":"WS 026",
+            "size":"MEDIUM",
+            "type":"HYBRID",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                     0.5,    -24.5
+            ]
+        },
+        {
+            "id":"WS 027",
+            "size":"MEDIUM",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":180,
+            "locations":[
+                     133,        6
+            ]
+        },
+        {
+            "id":"WS 028",
+            "size":"MEDIUM",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":270,
+            "locations":[
+                      -2,    -34.5
+            ]
+        },
+        {
+            "id":"WS 029",
+            "size":"MEDIUM",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":90,
+            "locations":[
+                      -4,       29
+            ]
+        },
+        {
+            "id":"WS 030",
+            "size":"MEDIUM",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":270,
+            "locations":[
+                  -204.5,      -42
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"MEDIUM",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":80,
+            "angle":270,
+            "locations":[
+                   124.5,    -59.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -253, -20
+            ],
+            "length":24,
+            "width":28,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -253, 21.5
+            ],
+            "length":24,
+            "width":28,
+            "angle":180,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -246, -55
+            ],
+            "length":21.5,
+            "width":26,
+            "angle":201,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        },
+        {
+            "location":[
+                -246.5, 53.5
+            ],
+            "length":21.5,
+            "width":26,
+            "angle":-201,
+            "contrailSize":12,
+            "style":"BORG_IMPULSE"
+        }
+    ],
+    "bounds":[
+            -255,     41.5,
+            -239,     73.5,
+           242.5,       73,
+           255.5,     43.5,
+           255.5,    -43.5,
+        
+           242.5,      -73,
+            -239,    -73.5,
+            -255,    -41.5
+    ]
+}
